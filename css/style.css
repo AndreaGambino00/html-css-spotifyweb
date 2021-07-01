@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/*struttura*/
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+main {
+    width: 100%;
+    height: 180vh;
+    background-color: #272C35;
+    color: white;
+}
+
+.nav {
+    min-width: 200px;
+    height: 90vh;
+    background-color: red;
+    float: left;
+    position: fixed;
+    z-index: 3;
+}
+
+.link:hover {
+    border-bottom: 2px solid green;
+}
+
+footer {
+    width: 2000px;
+    height: 10vh;
+    bottom: 0;
+    right: 0;
+    left:0;
+    background-color: green;
+    position: fixed;
+    z-index: 2;
+}
+
+.upgrade {
+    width: 100%;
+    height: 70px;
+    background-color: #191925;
+    position: fixed;
+    z-index: 1;
+}
+
+.btn {
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    margin: 15px;
+    float: right;
+    border-color: white;
+    background-color: #191925;
+    color: white;
+} 
+ /*main*/
+.nav-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 900px;
+    height: 40px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+#title1 {
+    margin-left: 220px;
+    
+    padding-top: 20px;
+    margin-top: 30px;
+    
+}
+
+.music {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 190px;
+    margin-top: 20px;
+}
+
+.link-music {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.music img {
+    width: 150px;
+    height: 150px;
+}
+
+.music-2 {
+    display: flex;
+    align-items: center;
+    padding-left: 190px;
+    
+}
+
+.link-music-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.music-2 img {
+    width: 150px;
+    height: 150px;
+}
+
+.artist {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.link-artist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 190px;
+    padding-bottom: 100px;
+    margin-top: 20px;
+}
+    
+.link-artist img {
+    width: 150px;
+    height: 150px;
+}
+
+/*color-font*/
+p {
+    color: #585A63;
+    font-size: 13px;
+}
+
+#sottotitoli {
+    margin-left: 220px;
+}
+    
+
+
+
+
+
+
