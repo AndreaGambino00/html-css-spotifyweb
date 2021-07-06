@@ -1,0 +1,37 @@
+@media screen and (max-width: 600px) {
+
+    main .main-nav {
+        width: 50px;
+    }
+
+    main .content {
+        width: calc(100% - 50px);
+    }
+
+    .btn {
+        position: fixed;
+    }
+
+    .link {
+        width: calc(100% / 3);
+    }
+
+    footer {
+        position: fixed;
+    }
+
+    .link-music {
+        width: calc(100% / 2);
+    }
+
+    .playlist .nome-playlist {
+        display: none;
+    }
+
+
+
+
+    
+
+}
+

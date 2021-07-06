@@ -40,9 +40,11 @@ main .content {
 }
 
 .upgrade {
-    width: 100%;
+    width: 1200px;
     height: 70px;
     background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    z-index: 5;
 }
 
 .btn {
@@ -52,9 +54,13 @@ main .content {
     margin: 15px;
     float: right;
     border-color: white;
-    background-color: #191925;
+    background-color:#080B12;
     color: white;
 } 
+
+#evidenza {
+    border-bottom: 2px solid green;
+}
  
 /*main*/
 .menu-main {
@@ -64,6 +70,7 @@ main .content {
     width: 900px;
     height: 40px;
     margin: 0 auto;
+    margin-top: 90px;
 }
 
 .music {
@@ -77,6 +84,17 @@ main .content {
     flex-direction: column;
     align-items: center;
     margin-left: 10px;
+    position: relative;
+}
+
+.link-music h4  {
+    margin-top: 10px;
+}
+
+.link-music i {
+    font-size: 50px;
+    position: absolute;
+    bottom: 110px;
 }
 
 .music img {
@@ -86,6 +104,7 @@ main .content {
 
 .subtitle {
    margin-left: 20px;
+   margin-top: 30px;
 }
 
 .music-2 {
@@ -149,8 +168,6 @@ main .content {
    margin-left: 10px;
 }
 
-
-
 .menu p {
     line-height: 40px;
 }
@@ -192,49 +209,34 @@ main .content {
 }
 
 .nome-playlist {
-    overflow-y: scroll;
     height: 100px;
 }
 
-.playlist li :hover {
-    color: white;
+.nav-bottom {
+    width: 100%;
+    height: 80px;
+    
+    margin-top: 170px;
+    padding: 10px;
 }
 
-.crea:hover {
-    color: white;
+.install {
+    margin-bottom: 10px;
 }
 
-#crea:hover {
-    color: white;
+.utent {
+    margin-top: 10px;
 }
 
-.nav-bottom img {
-    width: 30px;
-    margin-top: 30px;
-}
 
-.installa p {
+.install p {
     display: inline;
-    padding: 20px;
-    margin-bottom: 20px;
+
 }
 
-.installa img {
-    float: left;
-}
-
-.utent p {
+.utent h4 {
     display: inline;
-    padding: 20px;
-}
-
-.utent img {
-   float: left;
-}
-
-#profile {
-    border-radius: 100px;
-    background-color: lightgrey;
+    
 }
 
 /*footer*/
@@ -277,7 +279,6 @@ footer {
 .col-center {
     width: 600px;
     height: 100%;
-    
     display: inline;
 }
 
@@ -312,8 +313,15 @@ footer {
     border-radius: 10px;
 }
 
+#pallino {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50px;
+}
+
 #riga2 {
-    width: 280px;
+    width: 300px;
     height: 5px;
     background-color: gray;
     border-radius: 10px;
@@ -399,6 +407,46 @@ p {
 
 .riga3:hover {
     background-color: green;
+}
+
+.playlist li :hover {
+    color: white;
+}
+
+.playlist p:hover {
+    color: white;
+}
+
+.crea:hover {
+    color: white;
+}
+
+#crea:hover {
+    color: white;
+}
+
+.install p:hover {
+    color: white;
+}
+
+.link-music i {
+    display: none;
+}
+
+.link-music:hover i {
+    display: block;
+}
+
+#pallino {
+    display: none;
+}
+
+.row:hover #pallino {
+    display: block;
+}
+
+.row2:hover #pallino {
+    display: block;
 }
 
 
